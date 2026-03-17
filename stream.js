@@ -107,7 +107,7 @@ async function startBrowserCapture(videoStream, pulseMonitor) {
   logger.info("ページ読み込み完了");
 
   let frameCount = 0;
-  const intervalMs = 1000 / config.fps;
+  const intervalMs = 500 / config.fps;
 
   const captureLoop = setInterval(async () => {
     try {
