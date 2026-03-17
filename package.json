@@ -1,0 +1,19 @@
+{
+  "name": "browser-rtmp-streamer",
+  "version": "1.0.0",
+  "description": "ヘッドレスブラウザで指定URLを閲覧し、複数RTMPサーバーへ同時配信",
+  "type": "module",
+  "main": "stream.js",
+  "scripts": {
+    "start": "node stream.js",
+    "dev": "LOG_LEVEL=debug node stream.js"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.3",
+    "puppeteer": "^22.0.0",
+    "winston": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
