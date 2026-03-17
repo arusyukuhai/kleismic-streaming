@@ -11,7 +11,7 @@ export const config = {
   // ---- 映像 ----
   width: parseInt(process.env.WIDTH || "1280"),
   height: parseInt(process.env.HEIGHT || "720"),
-  fps: parseInt(process.env.FPS || "30"),
+  fps: parseInt(process.env.FPS || "60"),
   /** Puppeteer screenshot JPEG 品質 (1–100) */
   jpegQuality: parseInt(process.env.JPEG_QUALITY || "70"),
 
